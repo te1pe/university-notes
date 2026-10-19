@@ -1,29 +1,27 @@
 # university-notes
 
-Notes and worked problems from my first years at NSU FIT. Kept separate from
-[university-labs](https://github.com/te1pe/university-labs): that repository
-holds the lab code, this one holds theory and solutions.
+Конспекты и решённые задачи с первых курсов ФИТ НГУ. Хранятся отдельно от
+[university-labs](https://github.com/te1pe/university-labs): там код
+лабораторных, здесь — теория и решения.
 
-The notes themselves are in Russian.
+## Разделы
 
-## Sections
-
-| Section | Folder | What is inside |
+| Раздел | Папка | Что внутри |
 | --- | --- | --- |
-| Discrete mathematics | [`discrete-maths`](discrete-maths) | 93 worked problems in Markdown: Boolean functions, truth tables, minimisation |
-| Digital circuitry | [`circuitry`](circuitry) | 11 labs in SystemVerilog + a term project |
-| Informatics | [`informatics`](informatics) | three labs on text-file processing |
-| Probability theory and statistics | [`probability-theory-math-stat`](probability-theory-math-stat) | histogram, empirical distribution function, Kolmogorov test in Python |
+| Дискретная математика | [`discrete-maths`](discrete-maths) | 93 решённые задачи в Markdown: булевы функции, таблицы истинности, минимизация |
+| Цифровая схемотехника | [`circuitry`](circuitry) | 11 лабораторных на SystemVerilog + курсовой проект |
+| Информатика | [`informatics`](informatics) | три лабораторные по обработке текстовых файлов |
+| Теория вероятностей и математическая статистика | [`probability-theory-math-stat`](probability-theory-math-stat) | гистограмма, эмпирическая функция распределения, критерий Колмогорова на Python |
 
-## Digital circuitry
+## Цифровая схемотехника
 
-Modules and testbenches in SystemVerilog (`*.sv`), a pair of files per lab:
-`pr.sv` is the circuit, `pr_TB.sv` the testbench. Verified in a simulator.
+Модули и тестбенчи на SystemVerilog (`*.sv`), по паре файлов на лабораторную:
+`pr.sv` — сама схема, `pr_TB.sv` — тестбенч. Проверено в симуляторе.
 
-## Probability theory
+## Теория вероятностей
 
-Three Python scripts: `Gistogram.py`, `EFR.py`, `Kolmogorov.py`.
-Dependencies: `numpy` and `matplotlib`.
+Три скрипта на Python: `Gistogram.py`, `EFR.py`, `Kolmogorov.py`.
+Зависимости: `numpy` и `matplotlib`.
 
 ```bash
 python3 probability-theory-math-stat/Gistogram.py
