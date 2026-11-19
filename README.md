@@ -1,5 +1,7 @@
 # university-notes
 
+**Русский** · [English](README.en.md)
+
 Конспекты и решённые задачи с первых курсов ФИТ НГУ. Хранятся отдельно от
 [university-labs](https://github.com/te1pe/university-labs): там код
 лабораторных, здесь — теория и решения.
